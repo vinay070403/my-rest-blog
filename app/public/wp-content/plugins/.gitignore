@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Vendor dependencies
+vendor/
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Env
+.env

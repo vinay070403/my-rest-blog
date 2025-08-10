@@ -1,0 +1,16 @@
+[10-Aug-2025 20:21:28 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog/includes/api.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog\my-rest-blog.php on line 15
+[10-Aug-2025 20:21:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog/includes/api.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog\my-rest-blog.php:15
+Stack trace:
+#0 C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-admin\includes\plugin.php(2387): include_once()
+#1 C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-admin\includes\plugin.php(673): plugin_sandbox_scrape('my-rest-blog/my...')
+#2 C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-admin\plugins.php(60): activate_plugin('my-rest-blog/my...', 'http://my-rest-...', false)
+#3 {main}
+  thrown in C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog\my-rest-blog.php on line 15
+[10-Aug-2025 20:21:36 UTC] PHP Warning:  require_once(C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog/includes/api.php): Failed to open stream: No such file or directory in C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog\my-rest-blog.php on line 15
+[10-Aug-2025 20:21:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog/includes/api.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog\my-rest-blog.php:15
+Stack trace:
+#0 C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-admin\includes\plugin.php(2387): include_once()
+#1 C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-admin\includes\plugin.php(673): plugin_sandbox_scrape('my-rest-blog/my...')
+#2 C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-admin\plugins.php(60): activate_plugin('my-rest-blog/my...', 'http://my-rest-...', false)
+#3 {main}
+  thrown in C:\Users\vinay\Local Sites\my-rest-blog\app\public\wp-content\plugins\my-rest-blog\my-rest-blog.php on line 15
